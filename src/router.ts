@@ -4,7 +4,7 @@ import LayoutPage from "./components/layouts/Layout.vue";
 import LoginPage from "./components/modules/auth/Login.vue";
 import { authGuard } from "./common/guards/auth.guard";
 import RegisterPage from "./components/modules/customer/Register.vue";
-import CourseCategory from "./components/modules/course-category/courseCategory.vue";
+import CourseCategory from "./components/modules/course-category/CourseCategory.vue";
 import Course from "./components/modules/course/interface/Course.vue";
 
 const routes = [
