@@ -14,18 +14,20 @@
         </a-menu-item>
 
         <a-menu-item key="3" @click="handMenuClick('course')">
-            <upload-outlined />
+            <book-outlined />
             <span>Course</span>
         </a-menu-item>
-        <a-sub-menu key="sub2">
+        <a-sub-menu key="sub4">
             <template #title>
                 <span>
                     <team-outlined />
                     <span>Team</span>
                 </span>
-            </template>
+            </template> 
             <a-menu-item key="6">Team 1</a-menu-item>
             <a-menu-item key="8">Team 2</a-menu-item>
+            <a-menu-item key="9">Team 3</a-menu-item>
+            <a-menu-item key="10">Team 4</a-menu-item>
         </a-sub-menu>
     </a-menu>
 </template>
@@ -35,7 +37,7 @@ import {
     UserOutlined,
     TeamOutlined,
     AppstoreOutlined,
-    UploadOutlined
+    BookOutlined
 } from '@ant-design/icons-vue';
 import { useRouter } from 'vue-router';
 
